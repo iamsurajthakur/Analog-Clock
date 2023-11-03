@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+}
+.clockContainer{
+    background: url(clock.jpg) no-repeat;
+    height: 40vw;
+    width: 40vw;
+    background-size: 100%;
+    position: relative;
+    margin: auto;
+    top: 8vh;
+    border-radius: 50%;
+    box-shadow: 0 0px 20px white;
+}
+.hour,.minutes,.second{
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+.hour{
+    width: 2%;
+    height: 28%;
+    left: 48.9%;
+    top: 22.9%;
+    background: rgb(0, 0, 0);
+}
+.minutes{
+    width: 1.5%;
+    top: 48;
+    left: 48.9%;
+    top: 17.9%;
+    height: 33%;
+    background: rgb(0, 0, 0);
+}
+.second{
+    width: 1%;
+    top: 10.9%;
+    left: 48.9%;
+    height: 40%;
+    background: rgb(0, 0, 0);
+}
+.para{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5vh;
+}
+.para .text{
+    color: white;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
